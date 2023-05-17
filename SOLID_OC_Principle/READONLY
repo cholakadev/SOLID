@@ -1,0 +1,6 @@
+Open-Closed principle
+-----------------------------
+
+A class is opened for extension but closed for modification. In the example, we have ProductsFilter class and instead of adding new method in the class to filter by
+different conditions, we are extending it by creating new different specifications for the different filters we want to apply and they are passed to the Filter method.
+By doing this we are following the Open-Closed Principle.
